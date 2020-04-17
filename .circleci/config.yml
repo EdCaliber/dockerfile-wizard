@@ -6,7 +6,7 @@ image_config: &image_config
 
   IMAGE_NAME: edcaliber-ci
 
-  IMAGE_TAG: ruby-2.4.9
+  IMAGE_TAG: ruby-2.6.3-node-12.16.2
 
   # NOTE: if you're modifying this config.yml file manually
   # rather than using the included setup script,
@@ -15,9 +15,9 @@ image_config: &image_config
 
   LINUX_VERSION: UBUNTU_XENIAL
 
-  RUBY_VERSION_NUM: 2.4.9
+  RUBY_VERSION_NUM: 2.6.3
 
-  NODE_VERSION_NUM: 12.16.1
+  NODE_VERSION_NUM: 12.16.2
 
   # # PYTHON_VERSION_NUM: # pick a version from https://python.org/ftp/python
 
@@ -27,7 +27,7 @@ image_config: &image_config
 
   POSTGRES_CLIENT: true
 
-  DOCKERIZE: false
+  DOCKERIZE: true
 
   BROWSERS: true
 
